@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.2.0)
+  - QRCode (2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2)
+  - QRCode
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+
+PODFILE CHECKSUM: 2cb40f842fc132b1cf7b89c6f4117a5a20c9531b
+
+COCOAPODS: 1.1.1

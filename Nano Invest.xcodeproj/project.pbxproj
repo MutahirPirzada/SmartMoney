@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109575CB1E69EA4000C6381E /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109575CA1E69EA4000C6381E /* QRCodeViewController.swift */; };
+		1CFF8AA51DE49BCF003D31E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF8AA41DE49BCF003D31E3 /* AppDelegate.swift */; };
+		1CFF8AAC1DE49BCF003D31E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFF8AAB1DE49BCF003D31E3 /* Assets.xcassets */; };
+		1CFF8AAF1DE49BCF003D31E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFF8AAD1DE49BCF003D31E3 /* LaunchScreen.storyboard */; };
+		1CFF8AB71DE49C78003D31E3 /* ConsumerApp.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFF8AB61DE49C78003D31E3 /* ConsumerApp.xcassets */; };
+		1CFF8ABA1DE4AA37003D31E3 /* CustomRoundShadedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF8AB91DE4AA37003D31E3 /* CustomRoundShadedView.swift */; };
+		1CFF8ABC1DE4B92F003D31E3 /* CustomRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF8ABB1DE4B92F003D31E3 /* CustomRoundedView.swift */; };
+		2BF59ECBA0C59FA2354A300F /* Pods_Nano_Invest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792D702DCD3C29C9C8F3AB46 /* Pods_Nano_Invest.framework */; };
+		7A12A2311DEB797800917C0E /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12A2301DEB797800917C0E /* AccountViewController.swift */; };
+		7A1F99291DF49AB3009C8031 /* bigChart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F99281DF49AB3009C8031 /* bigChart.png */; };
+		7A2D16CE1DFF1E4900FB4A55 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D16CD1DFF1E4800FB4A55 /* GraphView.swift */; };
+		7A2D99121DF0759E00F6196D /* customAccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D99111DF0759D00F6196D /* customAccountCell.swift */; };
+		7AD583FB1E1AD6AF0024930D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD583FA1E1AD6AF0024930D /* Main.storyboard */; };
+		7AD583FD1E1AD6EC0024930D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD583FC1E1AD6EC0024930D /* APIManager.swift */; };
+		7AD583FF1E1AD7510024930D /* FingerPrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD583FE1E1AD7510024930D /* FingerPrintViewController.swift */; };
+		7AD584011E1AD7720024930D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD584001E1AD7720024930D /* FirstViewController.swift */; };
+		7AD584031E1ADF780024930D /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD584021E1ADF770024930D /* RegistrationViewController.swift */; };
+		7AFE84151DEFBC0300F5DE12 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE84141DEFBC0200F5DE12 /* menuViewController.swift */; };
+		E65343161DE725A100E640AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65343151DE725A100E640AC /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		109575CA1E69EA4000C6381E /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		1CFF8AA11DE49BCF003D31E3 /* SmartMoney.co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMoney.co.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFF8AA41DE49BCF003D31E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CFF8AAB1DE49BCF003D31E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CFF8AAE1DE49BCF003D31E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CFF8AB01DE49BCF003D31E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFF8AB61DE49C78003D31E3 /* ConsumerApp.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ConsumerApp.xcassets; sourceTree = "<group>"; };
+		1CFF8AB91DE4AA37003D31E3 /* CustomRoundShadedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRoundShadedView.swift; sourceTree = "<group>"; };
+		1CFF8ABB1DE4B92F003D31E3 /* CustomRoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRoundedView.swift; sourceTree = "<group>"; };
+		792D702DCD3C29C9C8F3AB46 /* Pods_Nano_Invest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nano_Invest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A12A2301DEB797800917C0E /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		7A1F99281DF49AB3009C8031 /* bigChart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigChart.png; sourceTree = "<group>"; };
+		7A2D16CD1DFF1E4800FB4A55 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		7A2D99111DF0759D00F6196D /* customAccountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customAccountCell.swift; sourceTree = "<group>"; };
+		7AD583FA1E1AD6AF0024930D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7AD583FC1E1AD6EC0024930D /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7AD583FE1E1AD7510024930D /* FingerPrintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FingerPrintViewController.swift; sourceTree = "<group>"; };
+		7AD584001E1AD7720024930D /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7AD584021E1ADF770024930D /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		7AFE84141DEFBC0200F5DE12 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		D7E821A6F58546CF13E1B13A /* Pods-Nano Invest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nano Invest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nano Invest/Pods-Nano Invest.debug.xcconfig"; sourceTree = "<group>"; };
+		E65343151DE725A100E640AC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EEE7F411FA44D2E090E9EF43 /* Pods-Nano Invest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nano Invest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nano Invest/Pods-Nano Invest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CFF8A9E1DE49BCE003D31E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF59ECBA0C59FA2354A300F /* Pods_Nano_Invest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CFF8A981DE49BCE003D31E3 = {
+			isa = PBXGroup;
+			children = (
+				7A1F99281DF49AB3009C8031 /* bigChart.png */,
+				1CFF8AA31DE49BCF003D31E3 /* ConsumerMobileApp */,
+				1CFF8AA21DE49BCF003D31E3 /* Products */,
+				C53F860C84530FFF1194E9F7 /* Pods */,
+				1F7868446F3C2A33D23D2D76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CFF8AA21DE49BCF003D31E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CFF8AA11DE49BCF003D31E3 /* SmartMoney.co.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CFF8AA31DE49BCF003D31E3 /* ConsumerMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				7AD583FC1E1AD6EC0024930D /* APIManager.swift */,
+				7AD583FA1E1AD6AF0024930D /* Main.storyboard */,
+				1CFF8AB81DE4AA14003D31E3 /* CustomViews */,
+				1CFF8AA41DE49BCF003D31E3 /* AppDelegate.swift */,
+				E65343151DE725A100E640AC /* HomeViewController.swift */,
+				7AD583FE1E1AD7510024930D /* FingerPrintViewController.swift */,
+				7A12A2301DEB797800917C0E /* AccountViewController.swift */,
+				7AD584021E1ADF770024930D /* RegistrationViewController.swift */,
+				109575CA1E69EA4000C6381E /* QRCodeViewController.swift */,
+				1CFF8AAB1DE49BCF003D31E3 /* Assets.xcassets */,
+				1CFF8AB61DE49C78003D31E3 /* ConsumerApp.xcassets */,
+				1CFF8AAD1DE49BCF003D31E3 /* LaunchScreen.storyboard */,
+				1CFF8AB01DE49BCF003D31E3 /* Info.plist */,
+				7AFE84141DEFBC0200F5DE12 /* menuViewController.swift */,
+				7A2D99111DF0759D00F6196D /* customAccountCell.swift */,
+				7A2D16CD1DFF1E4800FB4A55 /* GraphView.swift */,
+			);
+			path = ConsumerMobileApp;
+			sourceTree = "<group>";
+		};
+		1CFF8AB81DE4AA14003D31E3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				7AD584001E1AD7720024930D /* FirstViewController.swift */,
+				1CFF8AB91DE4AA37003D31E3 /* CustomRoundShadedView.swift */,
+				1CFF8ABB1DE4B92F003D31E3 /* CustomRoundedView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1F7868446F3C2A33D23D2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				792D702DCD3C29C9C8F3AB46 /* Pods_Nano_Invest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C53F860C84530FFF1194E9F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7E821A6F58546CF13E1B13A /* Pods-Nano Invest.debug.xcconfig */,
+				EEE7F411FA44D2E090E9EF43 /* Pods-Nano Invest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CFF8AA01DE49BCE003D31E3 /* Nano Invest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFF8AB31DE49BCF003D31E3 /* Build configuration list for PBXNativeTarget "Nano Invest" */;
+			buildPhases = (
+				D88993A53EFE03BC269B028F /* [CP] Check Pods Manifest.lock */,
+				1CFF8A9D1DE49BCE003D31E3 /* Sources */,
+				1CFF8A9E1DE49BCE003D31E3 /* Frameworks */,
+				1CFF8A9F1DE49BCE003D31E3 /* Resources */,
+				53780E21A4E0BF48BF38B12D /* [CP] Embed Pods Frameworks */,
+				28E76FA05AF93D331F24ACE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nano Invest";
+			productName = ConsumerMobileApp;
+			productReference = 1CFF8AA11DE49BCF003D31E3 /* SmartMoney.co.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CFF8A991DE49BCE003D31E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Usman;
+				TargetAttributes = {
+					1CFF8AA01DE49BCE003D31E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U4J68BYVBQ;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 1CFF8A9C1DE49BCE003D31E3 /* Build configuration list for PBXProject "Nano Invest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CFF8A981DE49BCE003D31E3;
+			productRefGroup = 1CFF8AA21DE49BCF003D31E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CFF8AA01DE49BCE003D31E3 /* Nano Invest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CFF8A9F1DE49BCE003D31E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFF8AAF1DE49BCF003D31E3 /* LaunchScreen.storyboard in Resources */,
+				7AD583FB1E1AD6AF0024930D /* Main.storyboard in Resources */,
+				7A1F99291DF49AB3009C8031 /* bigChart.png in Resources */,
+				1CFF8AB71DE49C78003D31E3 /* ConsumerApp.xcassets in Resources */,
+				1CFF8AAC1DE49BCF003D31E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28E76FA05AF93D331F24ACE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nano Invest/Pods-Nano Invest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53780E21A4E0BF48BF38B12D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nano Invest/Pods-Nano Invest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88993A53EFE03BC269B028F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CFF8A9D1DE49BCE003D31E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD583FF1E1AD7510024930D /* FingerPrintViewController.swift in Sources */,
+				7A2D99121DF0759E00F6196D /* customAccountCell.swift in Sources */,
+				109575CB1E69EA4000C6381E /* QRCodeViewController.swift in Sources */,
+				7A12A2311DEB797800917C0E /* AccountViewController.swift in Sources */,
+				1CFF8ABC1DE4B92F003D31E3 /* CustomRoundedView.swift in Sources */,
+				7AD584031E1ADF780024930D /* RegistrationViewController.swift in Sources */,
+				7AD583FD1E1AD6EC0024930D /* APIManager.swift in Sources */,
+				1CFF8ABA1DE4AA37003D31E3 /* CustomRoundShadedView.swift in Sources */,
+				1CFF8AA51DE49BCF003D31E3 /* AppDelegate.swift in Sources */,
+				E65343161DE725A100E640AC /* HomeViewController.swift in Sources */,
+				7AFE84151DEFBC0300F5DE12 /* menuViewController.swift in Sources */,
+				7A2D16CE1DFF1E4900FB4A55 /* GraphView.swift in Sources */,
+				7AD584011E1AD7720024930D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CFF8AAD1DE49BCF003D31E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFF8AAE1DE49BCF003D31E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CFF8AB11DE49BCF003D31E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zeeshan Tahir (KPXAE6C9E2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zeeshan Tahir (KPXAE6C9E2)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U4J68BYVBQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
+				PROVISIONING_PROFILE = "35bb488b-0865-40b5-ac89-9c2477d22b56";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CFF8AB21DE49BCF003D31E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Brilliant Innovators (U4J68BYVBQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brilliant Innovators (U4J68BYVBQ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U4J68BYVBQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "997a1433-51fd-4461-a6be-f8d6746391e1";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CFF8AB41DE49BCF003D31E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E821A6F58546CF13E1B13A /* Pods-Nano Invest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U4J68BYVBQ;
+				INFOPLIST_FILE = ConsumerMobileApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bi.ConsumerMobileApp;
+				PRODUCT_NAME = SmartMoney.co;
+				PROVISIONING_PROFILE = "35bb488b-0865-40b5-ac89-9c2477d22b56";
+				PROVISIONING_PROFILE_SPECIFIER = "Nano Dev";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1CFF8AB51DE49BCF003D31E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE7F411FA44D2E090E9EF43 /* Pods-Nano Invest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U4J68BYVBQ;
+				INFOPLIST_FILE = ConsumerMobileApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bi.ConsumerMobileApp;
+				PRODUCT_NAME = SmartMoney.co;
+				PROVISIONING_PROFILE = "997a1433-51fd-4461-a6be-f8d6746391e1";
+				PROVISIONING_PROFILE_SPECIFIER = "Nano Prod";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CFF8A9C1DE49BCE003D31E3 /* Build configuration list for PBXProject "Nano Invest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFF8AB11DE49BCF003D31E3 /* Debug */,
+				1CFF8AB21DE49BCF003D31E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFF8AB31DE49BCF003D31E3 /* Build configuration list for PBXNativeTarget "Nano Invest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFF8AB41DE49BCF003D31E3 /* Debug */,
+				1CFF8AB51DE49BCF003D31E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CFF8A991DE49BCE003D31E3 /* Project object */;
+}
