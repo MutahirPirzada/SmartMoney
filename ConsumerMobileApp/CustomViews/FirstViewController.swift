@@ -215,8 +215,8 @@ class FirstViewController: UIViewController , UITextFieldDelegate
     }
     
     @IBAction func btnReset(_ sender: Any) {
-        let RegVC = self.storyboard?.instantiateViewController(withIdentifier: "reg") as! RegistrationViewController
-        self.navigationController?.present(RegVC, animated: true)
+//        let RegVC = self.storyboard?.instantiateViewController(withIdentifier: "reg") as! RegistrationViewController
+//        self.navigationController?.present(RegVC, animated: true)
     }
     
     func sendDataToServer()

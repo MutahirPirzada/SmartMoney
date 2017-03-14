@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100F77CF1E7866DE005907E6 /* RegAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100F77CE1E7866DE005907E6 /* RegAddressViewController.swift */; };
+		100F77D11E786C46005907E6 /* RegistrationIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100F77D01E786C46005907E6 /* RegistrationIDViewController.swift */; };
+		100F77D31E786C59005907E6 /* RegistrationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100F77D21E786C59005907E6 /* RegistrationCodeViewController.swift */; };
+		101397F71E77D682003BDB2B /* RegistrationPersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101397F61E77D682003BDB2B /* RegistrationPersonalViewController.swift */; };
+		101397F91E77D6A8003BDB2B /* RegistrationPersonalMoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101397F81E77D6A8003BDB2B /* RegistrationPersonalMoreController.swift */; };
+		101397FB1E77D6C2003BDB2B /* RegEducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101397FA1E77D6C2003BDB2B /* RegEducationViewController.swift */; };
+		101397FD1E77D6D5003BDB2B /* RegFinancialGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101397FC1E77D6D5003BDB2B /* RegFinancialGoalViewController.swift */; };
+		101397FF1E77D6E9003BDB2B /* RegFinancialFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101397FE1E77D6E9003BDB2B /* RegFinancialFirstController.swift */; };
+		101398011E77D6F6003BDB2B /* RegFinancialMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101398001E77D6F6003BDB2B /* RegFinancialMoreViewController.swift */; };
+		101398031E77D804003BDB2B /* RegFinancialThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101398021E77D804003BDB2B /* RegFinancialThirdViewController.swift */; };
 		109575CB1E69EA4000C6381E /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109575CA1E69EA4000C6381E /* QRCodeViewController.swift */; };
 		1CFF8AA51DE49BCF003D31E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF8AA41DE49BCF003D31E3 /* AppDelegate.swift */; };
 		1CFF8AAC1DE49BCF003D31E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFF8AAB1DE49BCF003D31E3 /* Assets.xcassets */; };
@@ -23,12 +33,21 @@
 		7AD583FD1E1AD6EC0024930D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD583FC1E1AD6EC0024930D /* APIManager.swift */; };
 		7AD583FF1E1AD7510024930D /* FingerPrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD583FE1E1AD7510024930D /* FingerPrintViewController.swift */; };
 		7AD584011E1AD7720024930D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD584001E1AD7720024930D /* FirstViewController.swift */; };
-		7AD584031E1ADF780024930D /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD584021E1ADF770024930D /* RegistrationViewController.swift */; };
 		7AFE84151DEFBC0300F5DE12 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE84141DEFBC0200F5DE12 /* menuViewController.swift */; };
 		E65343161DE725A100E640AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65343151DE725A100E640AC /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		100F77CE1E7866DE005907E6 /* RegAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegAddressViewController.swift; sourceTree = "<group>"; };
+		100F77D01E786C46005907E6 /* RegistrationIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationIDViewController.swift; sourceTree = "<group>"; };
+		100F77D21E786C59005907E6 /* RegistrationCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationCodeViewController.swift; sourceTree = "<group>"; };
+		101397F61E77D682003BDB2B /* RegistrationPersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationPersonalViewController.swift; sourceTree = "<group>"; };
+		101397F81E77D6A8003BDB2B /* RegistrationPersonalMoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationPersonalMoreController.swift; sourceTree = "<group>"; };
+		101397FA1E77D6C2003BDB2B /* RegEducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegEducationViewController.swift; sourceTree = "<group>"; };
+		101397FC1E77D6D5003BDB2B /* RegFinancialGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegFinancialGoalViewController.swift; sourceTree = "<group>"; };
+		101397FE1E77D6E9003BDB2B /* RegFinancialFirstController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegFinancialFirstController.swift; sourceTree = "<group>"; };
+		101398001E77D6F6003BDB2B /* RegFinancialMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegFinancialMoreViewController.swift; sourceTree = "<group>"; };
+		101398021E77D804003BDB2B /* RegFinancialThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegFinancialThirdViewController.swift; sourceTree = "<group>"; };
 		109575CA1E69EA4000C6381E /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		1CFF8AA11DE49BCF003D31E3 /* SmartMoney.co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMoney.co.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFF8AA41DE49BCF003D31E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +66,6 @@
 		7AD583FC1E1AD6EC0024930D /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		7AD583FE1E1AD7510024930D /* FingerPrintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FingerPrintViewController.swift; sourceTree = "<group>"; };
 		7AD584001E1AD7720024930D /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7AD584021E1ADF770024930D /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		7AFE84141DEFBC0200F5DE12 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		D7E821A6F58546CF13E1B13A /* Pods-Nano Invest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nano Invest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nano Invest/Pods-Nano Invest.debug.xcconfig"; sourceTree = "<group>"; };
 		E65343151DE725A100E640AC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101397F51E77D669003BDB2B /* Regestration */ = {
+			isa = PBXGroup;
+			children = (
+				101397F61E77D682003BDB2B /* RegistrationPersonalViewController.swift */,
+				100F77CE1E7866DE005907E6 /* RegAddressViewController.swift */,
+				100F77D01E786C46005907E6 /* RegistrationIDViewController.swift */,
+				100F77D21E786C59005907E6 /* RegistrationCodeViewController.swift */,
+				101397F81E77D6A8003BDB2B /* RegistrationPersonalMoreController.swift */,
+				101397FA1E77D6C2003BDB2B /* RegEducationViewController.swift */,
+				101397FC1E77D6D5003BDB2B /* RegFinancialGoalViewController.swift */,
+				101397FE1E77D6E9003BDB2B /* RegFinancialFirstController.swift */,
+				101398001E77D6F6003BDB2B /* RegFinancialMoreViewController.swift */,
+				101398021E77D804003BDB2B /* RegFinancialThirdViewController.swift */,
+			);
+			path = Regestration;
+			sourceTree = "<group>";
+		};
 		1CFF8A981DE49BCE003D31E3 = {
 			isa = PBXGroup;
 			children = (
@@ -89,13 +124,13 @@
 			isa = PBXGroup;
 			children = (
 				7AD583FC1E1AD6EC0024930D /* APIManager.swift */,
+				101397F51E77D669003BDB2B /* Regestration */,
 				7AD583FA1E1AD6AF0024930D /* Main.storyboard */,
 				1CFF8AB81DE4AA14003D31E3 /* CustomViews */,
 				1CFF8AA41DE49BCF003D31E3 /* AppDelegate.swift */,
 				E65343151DE725A100E640AC /* HomeViewController.swift */,
 				7AD583FE1E1AD7510024930D /* FingerPrintViewController.swift */,
 				7A12A2301DEB797800917C0E /* AccountViewController.swift */,
-				7AD584021E1ADF770024930D /* RegistrationViewController.swift */,
 				109575CA1E69EA4000C6381E /* QRCodeViewController.swift */,
 				1CFF8AAB1DE49BCF003D31E3 /* Assets.xcassets */,
 				1CFF8AB61DE49C78003D31E3 /* ConsumerApp.xcassets */,
@@ -264,13 +299,22 @@
 				7AD583FF1E1AD7510024930D /* FingerPrintViewController.swift in Sources */,
 				7A2D99121DF0759E00F6196D /* customAccountCell.swift in Sources */,
 				109575CB1E69EA4000C6381E /* QRCodeViewController.swift in Sources */,
+				101397F71E77D682003BDB2B /* RegistrationPersonalViewController.swift in Sources */,
 				7A12A2311DEB797800917C0E /* AccountViewController.swift in Sources */,
+				101398031E77D804003BDB2B /* RegFinancialThirdViewController.swift in Sources */,
 				1CFF8ABC1DE4B92F003D31E3 /* CustomRoundedView.swift in Sources */,
-				7AD584031E1ADF780024930D /* RegistrationViewController.swift in Sources */,
+				100F77D11E786C46005907E6 /* RegistrationIDViewController.swift in Sources */,
+				100F77D31E786C59005907E6 /* RegistrationCodeViewController.swift in Sources */,
+				101397FF1E77D6E9003BDB2B /* RegFinancialFirstController.swift in Sources */,
 				7AD583FD1E1AD6EC0024930D /* APIManager.swift in Sources */,
+				101397FD1E77D6D5003BDB2B /* RegFinancialGoalViewController.swift in Sources */,
+				101397FB1E77D6C2003BDB2B /* RegEducationViewController.swift in Sources */,
 				1CFF8ABA1DE4AA37003D31E3 /* CustomRoundShadedView.swift in Sources */,
 				1CFF8AA51DE49BCF003D31E3 /* AppDelegate.swift in Sources */,
+				101397F91E77D6A8003BDB2B /* RegistrationPersonalMoreController.swift in Sources */,
+				101398011E77D6F6003BDB2B /* RegFinancialMoreViewController.swift in Sources */,
 				E65343161DE725A100E640AC /* HomeViewController.swift in Sources */,
+				100F77CF1E7866DE005907E6 /* RegAddressViewController.swift in Sources */,
 				7AFE84151DEFBC0300F5DE12 /* menuViewController.swift in Sources */,
 				7A2D16CE1DFF1E4900FB4A55 /* GraphView.swift in Sources */,
 				7AD584011E1AD7720024930D /* FirstViewController.swift in Sources */,
