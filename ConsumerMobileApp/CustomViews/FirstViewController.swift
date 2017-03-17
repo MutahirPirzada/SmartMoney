@@ -37,14 +37,21 @@ class FirstViewController: UIViewController , UITextFieldDelegate
 
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.txtphonenumber.text = "3125700062"
-        self.txtOne.text = "1"
-        self.txtTwo.text = "2"
-        self.txtThree.text = "3"
-        self.txtFour.text = "1"
-        self.txtFive.text = "2"
-        self.txtSix.text = "3"
+//        self.txtphonenumber.text = "3125700062"
+//        self.txtOne.text = "1"
+//        self.txtTwo.text = "2"
+//        self.txtThree.text = "3"
+//        self.txtFour.text = "1"
+//        self.txtFive.text = "2"
+//        self.txtSix.text = "3"
 
+        self.txtphonenumber.text = ""
+        self.txtOne.text = ""
+        self.txtTwo.text = ""
+        self.txtThree.text = ""
+        self.txtFour.text = ""
+        self.txtFive.text = ""
+        self.txtSix.text = ""
     }
 
 
@@ -217,6 +224,13 @@ class FirstViewController: UIViewController , UITextFieldDelegate
     @IBAction func btnReset(_ sender: Any) {
 //        let RegVC = self.storyboard?.instantiateViewController(withIdentifier: "reg") as! RegistrationViewController
 //        self.navigationController?.present(RegVC, animated: true)
+        self.txtphonenumber.text = ""
+        self.txtOne.text = ""
+        self.txtTwo.text = ""
+        self.txtThree.text = ""
+        self.txtFour.text = ""
+        self.txtFive.text = ""
+        self.txtSix.text = ""
     }
     
     func sendDataToServer()

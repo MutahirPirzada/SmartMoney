@@ -23,7 +23,7 @@ class RegFinancialThirdViewController: UIViewController {
     
 
     @IBAction func onClickNextButton(_ sender: Any) {
-        self.navigationController!.popToRootViewController(animated: true)
+      //  self.navigationController!.popToRootViewController(animated: true)
     }
     /*
     // MARK: - Navigation

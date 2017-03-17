@@ -21,7 +21,9 @@ class RegFinancialGoalViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func onClickNextButton(_ sender: AnyObject) {
+        self.navigationController!.popToRootViewController(animated: true)
+    }
     /*
     // MARK: - Navigation
 

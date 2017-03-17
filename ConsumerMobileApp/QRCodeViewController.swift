@@ -18,11 +18,27 @@ class QRCodeViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         let phoneNumber = UserDefaults.standard.value(forKey: "phoneNumber") as! String
-        let qrCode = QRCode(phoneNumber)
         
-        let qrImage = qrCode?.image
+        let jsonDictionary = NSMutableDictionary()
+        jsonDictionary.setValue(phoneNumber, forKey: "phone")
         
-        qrCodeImageView.image = qrImage
+        var jsonString = ""
+        do {
+            
+            let jsonData = try JSONSerialization.data(withJSONObject: jsonDictionary, options: .prettyPrinted)
+            
+            jsonString = NSString(data: jsonData, encoding: String.Encoding.utf8.rawValue)! as String
+            
+            let qrCode = QRCode(jsonString)
+            
+            let qrImage = qrCode?.image
+            
+            qrCodeImageView.image = qrImage
+            
+        } catch {
+            print(error.localizedDescription)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
