@@ -1,15 +1,16 @@
 //
-//  RegFinancialThirdViewController.swift
+//  RiskScoreViewController.swift
 //  Nano Invest
 //
-//  Created by Usman Nisar on 3/14/17.
+//  Created by Usman Nisar on 3/20/17.
 //  Copyright © 2017 Usman. All rights reserved.
 //
 
 import UIKit
 
-class RegFinancialThirdViewController: UIViewController {
+class RiskScoreViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,9 +23,6 @@ class RegFinancialThirdViewController: UIViewController {
     }
     
 
-    @IBAction func onClickNextButton(_ sender: Any) {
-      //  self.navigationController!.popToRootViewController(animated: true)
-    }
     /*
     // MARK: - Navigation
 
@@ -35,4 +33,7 @@ class RegFinancialThirdViewController: UIViewController {
     }
     */
 
+    @IBAction func onClickAcceptButton(_ sender: AnyObject) {
+        self.navigationController!.popToRootViewController(animated: true)
+    }
 }
