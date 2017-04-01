@@ -13,8 +13,8 @@ class AccountViewController: UIViewController , UITableViewDelegate, UITableView
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var graphView: GraphView!
 
-    @IBOutlet weak var menuView: UIView!
-    @IBOutlet weak var menuBtn: UIButton!
+//    @IBOutlet weak var menuView: UIView!
+//    @IBOutlet weak var menuBtn: UIButton!
     @IBOutlet weak var viewForButtons: UIView!
     @IBOutlet weak var tblAccount: UITableView!
     @IBOutlet weak var btnDay: UIButton!
@@ -29,19 +29,25 @@ class AccountViewController: UIViewController , UITableViewDelegate, UITableView
     @IBOutlet weak var btnCreditThree: UIButton!
     @IBOutlet weak var btnCreditTwo: UIButton!
     @IBOutlet weak var labelVeiw: UIView!
+    
+    @IBOutlet weak var menuLeadingConstraint: NSLayoutConstraint!
+    
 var imageV = UIImageView()
     var datesArr: [String] = ["Sept 11", "Sept 12", "Sept 13","Sept 14","Sept 11", "Sept 12", "Sept 13","Sept 11", "Sept 12", "Sept 13"]
     var amountArr: [String] = ["Daily Average ($4.50) + $2.00", "Daily Average ($4.50) - $1.75", "Daily Average ($4.50) - $1.75", "Daily Average ($4.50) - $0.30","Daily Average ($4.50) + $2.00", "Daily Average ($4.50) - $1.75", "Daily Average ($4.50) - $1.75","Daily Average ($4.50) + $2.00", "Daily Average ($4.50) - $1.75", "Daily Average ($4.50) - $1.75"]
     var descArr: [String] = ["$6.50", "$2.25", "$5.00","$4.20","$6.50", "$2.25", "$5.00","$6.50", "$2.25", "$5.00"]
 
     override func viewDidLoad() {
+        
+        self.menuLeadingConstraint.constant = -84
+        
         self.imgProfile.layer.cornerRadius = self.imgProfile.frame.size.width/2
         self.imgProfile.layer .masksToBounds = true
 
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.tapOnImg))
         tapGesture.numberOfTapsRequired = 1
       //  imgChart .addGestureRecognizer(tapGesture)
-        self.menuView .isHidden = true
+//        self.menuView .isHidden = true
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture))
         swipeRight.direction = UISwipeGestureRecognizerDirection.right
 
@@ -83,15 +89,15 @@ var imageV = UIImageView()
             switch swipeGesture.direction {
             case UISwipeGestureRecognizerDirection.right:
                 print("Swiped right")
-                self.menuBtn .isHidden = true
-                self.menuView .isHidden = false
+//                self.menuBtn .isHidden = true
+//                self.menuView .isHidden = false
             case UISwipeGestureRecognizerDirection.down:
                 print("Swiped down")
             case UISwipeGestureRecognizerDirection.left:
                 print("Swiped left")
 
-                self.menuBtn .isHidden = false
-                self.menuView .isHidden = true
+//                self.menuBtn .isHidden = false
+//                self.menuView .isHidden = true
 
             case UISwipeGestureRecognizerDirection.up:
                 print("Swiped up")
@@ -99,6 +105,30 @@ var imageV = UIImageView()
                 break
             }
         }
+    }
+    
+    @IBAction func onClickMenuButton(_ sender: AnyObject) {
+        
+        var nLeading = 0
+        if self.menuLeadingConstraint.constant == 0 {
+            nLeading = -84
+        }
+        else {
+            nLeading = 0
+        }
+        
+        UIView.animate(withDuration: 0.4, animations: {
+            
+            self.menuLeadingConstraint.constant = CGFloat(nLeading)
+            self.view.layoutSubviews()
+            
+        }, completion: {
+            (value: Bool) in
+            
+            
+        })
+        
+        
     }
 
 
@@ -143,23 +173,7 @@ var imageV = UIImageView()
         btnWeek.backgroundColor = UIColor (colorLiteralRed: 3/255, green: 13/255, blue: 78/255, alpha: 1)
         btnDay.backgroundColor = UIColor (colorLiteralRed: 64/255, green: 133/255, blue: 222/255, alpha: 1)
     }
-    @IBAction func menuBtn(_ sender: Any) {
-
-        UIView.animate(withDuration: 2, animations: {
-            self.menuView.alpha = 1
-            var frame = self.menuView.frame as CGRect
-            frame.origin.x = 0
-            self.menuView.frame = frame
-
-        }, completion: {
-            (value: Bool) in
-            self.menuView.isHidden = false
-            self.menuBtn .isHidden = true
-            self.viewForButtons .isHidden = true
-
-        })
-
-    }
+    
     
     @IBAction func onNewButtonTapped(_ sender: Any) {
         let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "home") as! HomeViewController

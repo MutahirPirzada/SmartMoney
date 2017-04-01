@@ -56,22 +56,22 @@ class RegistrationPersonalMoreController: UIViewController {
     
     @IBAction func onGenderButtonTapped(_ sender: AnyObject) {
         
-        let actionSheet: UIAlertController = UIAlertController(title: "Select a Gender", message: "", preferredStyle: .actionSheet)
+        let actionSheet: UIAlertController = UIAlertController(title: "Select a Marital Status", message: "", preferredStyle: .actionSheet)
         
         let cancelActionButton: UIAlertAction = UIAlertAction(title: "Cancel", style: .cancel) { action -> Void in
             print("Cancel")
         }
         actionSheet.addAction(cancelActionButton)
         
-        let firstActionButton: UIAlertAction = UIAlertAction(title: "Male", style: .default)
+        let firstActionButton: UIAlertAction = UIAlertAction(title: "Married", style: .default)
         { action -> Void in
-            self.pGenderTextField.text = "Male"
+            self.pGenderTextField.text = "Married"
         }
         actionSheet.addAction(firstActionButton)
         
-        let secondButton: UIAlertAction = UIAlertAction(title: "Female", style: .default)
+        let secondButton: UIAlertAction = UIAlertAction(title: "UnMarried", style: .default)
         { action -> Void in
-            self.pGenderTextField.text = "Female"
+            self.pGenderTextField.text = "UnMarried"
         }
         actionSheet.addAction(secondButton)
         self.present(actionSheet, animated: true, completion: nil)

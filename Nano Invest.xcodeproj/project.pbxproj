@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100DEBC91E8ECF9F00F5FC7E /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DEBC81E8ECF9F00F5FC7E /* SecurityViewController.swift */; };
+		100E37311E8D70FC00475B65 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100E37301E8D70FC00475B65 /* WelcomeViewController.swift */; };
+		100E37331E8D7E3A00475B65 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100E37321E8D7E3A00475B65 /* LocalAuthentication.framework */; };
+		100EFDE51E8A84DE00E516CC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100EFDE31E8A84DE00E516CC /* SettingsViewController.swift */; };
 		100F77CF1E7866DE005907E6 /* RegAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100F77CE1E7866DE005907E6 /* RegAddressViewController.swift */; };
 		100F77D11E786C46005907E6 /* RegistrationIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100F77D01E786C46005907E6 /* RegistrationIDViewController.swift */; };
 		100F77D31E786C59005907E6 /* RegistrationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100F77D21E786C59005907E6 /* RegistrationCodeViewController.swift */; };
@@ -17,6 +21,9 @@
 		101397FF1E77D6E9003BDB2B /* RegFinancialFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101397FE1E77D6E9003BDB2B /* RegFinancialFirstController.swift */; };
 		101398011E77D6F6003BDB2B /* RegFinancialMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101398001E77D6F6003BDB2B /* RegFinancialMoreViewController.swift */; };
 		102B9B771E80524D00E63424 /* RiskScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B9B761E80524D00E63424 /* RiskScoreViewController.swift */; };
+		1068C8211E8F94B6006BE656 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1068C8201E8F94B6006BE656 /* EditProfileViewController.swift */; };
+		1068C8231E8F97CB006BE656 /* ParentalControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1068C8221E8F97CB006BE656 /* ParentalControlViewController.swift */; };
+		1068C8251E8FBECF006BE656 /* RiskProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1068C8241E8FBECF006BE656 /* RiskProfileViewController.swift */; };
 		109575CB1E69EA4000C6381E /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109575CA1E69EA4000C6381E /* QRCodeViewController.swift */; };
 		1CFF8AA51DE49BCF003D31E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF8AA41DE49BCF003D31E3 /* AppDelegate.swift */; };
 		1CFF8AAC1DE49BCF003D31E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFF8AAB1DE49BCF003D31E3 /* Assets.xcassets */; };
@@ -38,6 +45,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		100DEBC81E8ECF9F00F5FC7E /* SecurityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
+		100E37301E8D70FC00475B65 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		100E37321E8D7E3A00475B65 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		100EFDE31E8A84DE00E516CC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		100F77CE1E7866DE005907E6 /* RegAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegAddressViewController.swift; sourceTree = "<group>"; };
 		100F77D01E786C46005907E6 /* RegistrationIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationIDViewController.swift; sourceTree = "<group>"; };
 		100F77D21E786C59005907E6 /* RegistrationCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationCodeViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +59,9 @@
 		101397FE1E77D6E9003BDB2B /* RegFinancialFirstController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegFinancialFirstController.swift; sourceTree = "<group>"; };
 		101398001E77D6F6003BDB2B /* RegFinancialMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegFinancialMoreViewController.swift; sourceTree = "<group>"; };
 		102B9B761E80524D00E63424 /* RiskScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiskScoreViewController.swift; sourceTree = "<group>"; };
+		1068C8201E8F94B6006BE656 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		1068C8221E8F97CB006BE656 /* ParentalControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentalControlViewController.swift; sourceTree = "<group>"; };
+		1068C8241E8FBECF006BE656 /* RiskProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiskProfileViewController.swift; sourceTree = "<group>"; };
 		109575CA1E69EA4000C6381E /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		1CFF8AA11DE49BCF003D31E3 /* SmartMoney.co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMoney.co.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFF8AA41DE49BCF003D31E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100E37331E8D7E3A00475B65 /* LocalAuthentication.framework in Frameworks */,
 				2BF59ECBA0C59FA2354A300F /* Pods_Nano_Invest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +147,11 @@
 				7AD583FE1E1AD7510024930D /* FingerPrintViewController.swift */,
 				7A12A2301DEB797800917C0E /* AccountViewController.swift */,
 				109575CA1E69EA4000C6381E /* QRCodeViewController.swift */,
+				100EFDE31E8A84DE00E516CC /* SettingsViewController.swift */,
+				100DEBC81E8ECF9F00F5FC7E /* SecurityViewController.swift */,
+				1068C8201E8F94B6006BE656 /* EditProfileViewController.swift */,
+				1068C8221E8F97CB006BE656 /* ParentalControlViewController.swift */,
+				1068C8241E8FBECF006BE656 /* RiskProfileViewController.swift */,
 				1CFF8AAB1DE49BCF003D31E3 /* Assets.xcassets */,
 				1CFF8AB61DE49C78003D31E3 /* ConsumerApp.xcassets */,
 				1CFF8AAD1DE49BCF003D31E3 /* LaunchScreen.storyboard */,
@@ -149,6 +169,7 @@
 				7AD584001E1AD7720024930D /* FirstViewController.swift */,
 				1CFF8AB91DE4AA37003D31E3 /* CustomRoundShadedView.swift */,
 				1CFF8ABB1DE4B92F003D31E3 /* CustomRoundedView.swift */,
+				100E37301E8D70FC00475B65 /* WelcomeViewController.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -156,6 +177,7 @@
 		1F7868446F3C2A33D23D2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				100E37321E8D7E3A00475B65 /* LocalAuthentication.framework */,
 				792D702DCD3C29C9C8F3AB46 /* Pods_Nano_Invest.framework */,
 			);
 			name = Frameworks;
@@ -200,7 +222,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Usman;
 				TargetAttributes = {
 					1CFF8AA01DE49BCE003D31E3 = {
@@ -296,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1068C8211E8F94B6006BE656 /* EditProfileViewController.swift in Sources */,
 				7AD583FF1E1AD7510024930D /* FingerPrintViewController.swift in Sources */,
 				7A2D99121DF0759E00F6196D /* customAccountCell.swift in Sources */,
 				109575CB1E69EA4000C6381E /* QRCodeViewController.swift in Sources */,
@@ -305,12 +328,17 @@
 				100F77D11E786C46005907E6 /* RegistrationIDViewController.swift in Sources */,
 				100F77D31E786C59005907E6 /* RegistrationCodeViewController.swift in Sources */,
 				101397FF1E77D6E9003BDB2B /* RegFinancialFirstController.swift in Sources */,
+				100E37311E8D70FC00475B65 /* WelcomeViewController.swift in Sources */,
 				7AD583FD1E1AD6EC0024930D /* APIManager.swift in Sources */,
 				101397FD1E77D6D5003BDB2B /* RegFinancialGoalViewController.swift in Sources */,
 				101397FB1E77D6C2003BDB2B /* RegEducationViewController.swift in Sources */,
+				100DEBC91E8ECF9F00F5FC7E /* SecurityViewController.swift in Sources */,
 				102B9B771E80524D00E63424 /* RiskScoreViewController.swift in Sources */,
 				1CFF8ABA1DE4AA37003D31E3 /* CustomRoundShadedView.swift in Sources */,
+				1068C8231E8F97CB006BE656 /* ParentalControlViewController.swift in Sources */,
 				1CFF8AA51DE49BCF003D31E3 /* AppDelegate.swift in Sources */,
+				1068C8251E8FBECF006BE656 /* RiskProfileViewController.swift in Sources */,
+				100EFDE51E8A84DE00E516CC /* SettingsViewController.swift in Sources */,
 				101397F91E77D6A8003BDB2B /* RegistrationPersonalMoreController.swift in Sources */,
 				101398011E77D6F6003BDB2B /* RegFinancialMoreViewController.swift in Sources */,
 				E65343161DE725A100E640AC /* HomeViewController.swift in Sources */,
@@ -382,7 +410,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
-				PROVISIONING_PROFILE = "0c7bda89-265a-48c8-9f83-9f7b4cd9f734";
+				PROVISIONING_PROFILE = "3c14175f-f56f-48a0-b0c4-12b7b6550e86";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -449,7 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bi.ConsumerMobileApp;
 				PRODUCT_NAME = SmartMoney.co;
-				PROVISIONING_PROFILE = "35bb488b-0865-40b5-ac89-9c2477d22b56";
+				PROVISIONING_PROFILE = "3c14175f-f56f-48a0-b0c4-12b7b6550e86";
 				PROVISIONING_PROFILE_SPECIFIER = "Nano Dev";
 				SWIFT_VERSION = 3.0;
 			};
